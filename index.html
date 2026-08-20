@@ -1,0 +1,263 @@
+# RinBakery — index.html
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RinBakery — Sweet Moments</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <span>Rin</span>Bakery
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">Tentang</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <button id="musicBtn" class="music-btn">
+        🎵 Musik
+    </button>
+</header>
+
+
+<main>
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+        <span class="small-title">WELCOME TO RINBAKERY</span>
+
+        <h1>
+            Freshly Baked,
+            <span>Made With Love.</span>
+        </h1>
+
+        <p>
+            Nikmati berbagai kue, pastry, dessert dan minuman
+            favorit yang dibuat dengan penuh cinta.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#menu" class="primary-btn">
+                Lihat Menu 🍰
+            </a>
+
+            <a href="#about" class="secondary-btn">
+                Tentang Kami
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-cake">
+        <div class="cake-circle"></div>
+        <img
+            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+            alt="Chocolate Cake">
+    </div>
+
+</section>
+
+
+<section class="features">
+
+    <div class="feature">
+        <div>🍰</div>
+        <h3>Fresh Every Day</h3>
+        <p>Dibuat fresh setiap hari.</p>
+    </div>
+
+    <div class="feature">
+        <div>🥛</div>
+        <h3>Premium Ingredients</h3>
+        <p>Menggunakan bahan berkualitas.</p>
+    </div>
+
+    <div class="feature">
+        <div>💗</div>
+        <h3>Made With Love</h3>
+        <p>Dibuat dengan penuh perhatian.</p>
+    </div>
+
+    <div class="feature">
+        <div>🚚</div>
+        <h3>Easy Delivery</h3>
+        <p>Pesan dan kirim dengan mudah.</p>
+    </div>
+
+</section>
+
+
+<section id="menu" class="menu-section">
+
+    <div class="section-heading">
+        <span>OUR FAVORITES</span>
+        <h2>Menu RinBakery</h2>
+        <p>
+            Pilih kue favoritmu dan nikmati manisnya hari ini.
+        </p>
+    </div>
+
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 Cari menu..."
+        >
+    </div>
+
+
+    <div class="categories">
+
+        <button class="category active" data-category="all">
+            Semua
+        </button>
+
+        <button class="category" data-category="cake">
+            Cake
+        </button>
+
+        <button class="category" data-category="pastry">
+            Pastry
+        </button>
+
+        <button class="category" data-category="dessert">
+            Dessert
+        </button>
+
+        <button class="category" data-category="drink">
+            Minuman
+        </button>
+
+    </div>
+
+
+    <div id="menuGrid" class="menu-grid"></div>
+
+</section>
+
+
+<section id="about" class="about">
+
+    <div class="about-image">
+        <img
+            src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?auto=format&fit=crop&w=900&q=85"
+            alt="Bakery">
+    </div>
+
+    <div class="about-text">
+        <span>ABOUT RINBAKERY</span>
+
+        <h2>
+            Tempat kecil untuk
+            <strong>kebahagiaan besar.</strong>
+        </h2>
+
+        <p>
+            RinBakery adalah toko kue dengan berbagai pilihan
+            cake, pastry, dessert dan minuman yang cocok untuk
+            menemani hari-harimu.
+        </p>
+
+        <p>
+            Mulai dari sarapan, nongkrong bersama teman,
+            ulang tahun hingga acara spesial.
+        </p>
+
+        <a href="#contact" class="primary-btn">
+            Hubungi Kami
+        </a>
+    </div>
+
+</section>
+
+
+<section class="promo">
+
+    <div>
+        <span>SWEET DEAL TODAY</span>
+
+        <h2>
+            Treat Yourself
+            With Something Sweet 🍓
+        </h2>
+
+        <p>
+            Pesan menu favoritmu sekarang.
+        </p>
+    </div>
+
+    <a href="#menu" class="white-btn">
+        Pesan Sekarang
+    </a>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+    <div class="section-heading">
+        <span>CONTACT US</span>
+        <h2>Pesan di RinBakery</h2>
+    </div>
+
+    <div class="contact-box">
+
+        <div>
+            <strong>📍 Lokasi</strong>
+            <p>RinBakery Sweet House</p>
+        </div>
+
+        <div>
+            <strong>📱 WhatsApp</strong>
+            <p>08xx-xxxx-xxxx</p>
+        </div>
+
+        <div>
+            <strong>🕐 Jam Buka</strong>
+            <p>08.00 — 21.00</p>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+    <div class="logo">
+        <span>Rin</span>Bakery
+    </div>
+
+    <p>
+        Made with 💗 by RinBakery
+    </p>
+</footer>
+
+
+<div id="toast" class="toast">
+    Menu ditambahkan ke pesanan 🛒
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
